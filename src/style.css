@@ -40,6 +40,7 @@
 {
     --primary-bg:#14120B;
     --secondary-bg:#1D1B15;
+    --text-white:rgb(237, 236, 236);
     
 }
 body{
@@ -198,5 +199,41 @@ nav
 .link:hover{
     color:#ee380fd7;
 }
+.heading2{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    color: var(--text-white);
+    letter-spacing: -0.02em;
+}
+.review-cards{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    margin-left:7.264%;
+    margin-right:7.264%;
+    gap:10px;
+}
+.review{
+    background-color: #1B1913;
+    display: flex;
+    flex-direction: column;
+}
 
+.review-text{
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: var(--text-white);
+    padding: 16px;
+    line-height: 24px;
+}
+.name{
+    font-size: 14px;
+    color: var(--text-white);
+    padding: 16px;
+    line-height: 21px;
+    display: flex;
+    gap:14px;
+    margin-top: auto;
+}
 
