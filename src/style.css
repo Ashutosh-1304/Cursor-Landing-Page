@@ -236,4 +236,38 @@ nav
     gap:14px;
     margin-top: auto;
 }
+.CTA2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 421px;
+    justify-content: center;
+}
+.CTA2 p{
+    font-size:72px;
+    color:var(--text-white);
+    line-height: 79px;
+    letter-spacing: -0.02em;
+}
+footer{
+    height:435px;
+    background-color: #1B1913;
+
+}
+.footer-temp{
+    display: flex;
+    padding-left: 106px;
+    padding-top:70px;
+    margin-bottom:70px;
+}
+.link-card{
+    height:208px;
+    width: 252px;
+    color:var(--text-white);
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 14px;
+    
+    
+}
 
