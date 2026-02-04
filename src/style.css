@@ -198,6 +198,7 @@ nav
 }
 .link:hover{
     color:#ee380fd7;
+    cursor: pointer;
 }
 .heading2{
     font-size: 36px;
@@ -236,6 +237,88 @@ nav
     gap:14px;
     margin-top: auto;
 }
+.frontier{
+    padding:110px;
+
+}
+.frontier-cards{
+    display: flex;
+    gap:10px;
+}
+.frontier-card{
+    height:563px;
+    width: 427px;
+    background-color:#1D1B15;
+    padding:16px;
+    font-size:16px;
+    letter-spacing: -0.02em;
+    line-height: 24px;
+    color:#999896;
+    cursor: pointer;
+}
+.frontier-card img{
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.changelog{
+    padding:110px;
+}
+.changelog-cards{
+    display:flex;
+    gap:10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.changelog-card{
+    background-color:#1D1B15;
+    padding:16px;
+    font-size:16px;
+    letter-spacing: -0.02em;
+    line-height: 24px;
+    color:#999896;
+    cursor: pointer;
+    height: 121px;
+    width:318px;
+    border-radius: 4px;
+}
+.community{
+    padding-left: 100px;
+    padding-right:100px;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.community-main{
+    color:var(--text-white);
+    line-height: 43px;
+    font-size:36px;
+    letter-spacing: -0.04em;
+    width:810px;
+    padding-right: 200px;
+}
+.recent{
+    padding:90px;
+    background-color: #1B1913;
+    display: flex;
+}
+.recent-1{
+    width:325px;
+}
+.recent-cards{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.recent-card{
+    width:650px;
+    padding:14px;
+    padding-right:28px;
+    font-size:16px;
+    letter-spacing: -0.02em;
+    line-height: 24px;
+    color:#999896;
+    background-color: #26241E;
+    border-radius: 2px;
+}
 .CTA2{
     display:flex;
     flex-direction: column;
@@ -266,8 +349,7 @@ footer{
     color:var(--text-white);
     cursor: pointer;
     line-height: 30px;
-    font-size: 14px;
-    
-    
+    font-size: 14px;  
 }
+
 
